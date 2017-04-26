@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Landing page</title>
+    <!--<link href="..\Styles\mui.min.css" rel="stylesheet" type="text/css">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Junk Food in Vinnytisa</a>
+            </div>
+            <ul class="nav navbar-nav">                
+                <li class="active"><a href="#">Find food</a></li>
+                <li><a href="#">Share places info</a></li>                
+            </ul>
+        </div>
+    </nav>
+    <p/>
+
+    <div class="container" id="layoutTable">
+        <div class="row">
+            <div class="col-xs-6">
+                <h1>Hey buddy. Wanna find something to eat in a few meters?</h1>
+                <h1>Or wanna share with the others?</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6">
+                <img src="../Images/FoodBackground-large.jpg" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6">
+                <div style="padding-top:10px">
+                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Find food around</button>
+                    <div id="demo" class="collapse">
+                        <h3 class="bg-info">How to get your current position?</h3>
+                        <p />
+                        <button type="button" class="btn btn-info">By GPS</button>
+                        <div class="alert alert-info">
+                            <strong>Info!</strong> You must enable GPS and grant perimissons
+                        </div>
+                        <p />
+                        <button type="button" class="btn btn-info">By address</button>
+                        <p />
+                        <a href="Map.html" class="btn btn-info" role="button">Specify on a map</a>
+                        <!--<button type="button" class="btn btn-info">Specify on a map</button>-->
+                    </div>
+                </div>                
+            </div>
+        </div>
+        <div class="row">            
+            <div class="col-xs-6">
+                <div style="padding-top:10px">
+                    <button class="btn btn-info">Share outlets</button>
+                </div>
+           </div>
+        </div>
+    </div>   
+    <footer class="container-fluid text-center">
+        <p>Footer Text</p>
+    </footer>
+</body>
+</html>
