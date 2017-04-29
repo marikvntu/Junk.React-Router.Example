@@ -1,10 +1,6 @@
 ﻿import * as React from "react";
 import { HashRouter, Route, Link } from "react-router-dom"
 
-import SearchPage from "./Components/Pages/Search"
-import WelcomePage from "./Components/Pages/Welcome"
-import MapPage from "./Components/Pages/Map"
-
 const Home = () => (
     <div>
         <h2>Home</h2>
