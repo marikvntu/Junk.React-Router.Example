@@ -5,29 +5,18 @@
   "dependencies": {
     "@types/react": "^15.0.16",
     "@types/react-dom": "^0.14.23",
-    "@types/react-redux": "^4.4.40",
-    "@types/react-router": "4.0.4",
-    "@types/react-router-dom": "4.0.4",
-    "axios": "0.15.3",
-    "browser-history": "1.0.1",
-    "class-transformer": "^0.1.6",
-    "history": "^1.17.0",
-    "jquery": "3.2.0",
-    "react": "^0.14.6",
-    "react-dom": "^0.14.6",
-    "react-redux": "^5.0.4",
-    "react-router": "4.0.0",
-    "react-router-dom": "^4.1.1",
-    "redux": "3.6.0",
-    "redux-thunk": "2.2.0",
-    "reflect-metadata": "^0.1.10",
+    "@types/history" : "4.5.0",
+    "react": "15.5.4",
+    "react-dom": "15.5.4",
+    "react-router": "~4.1.1",
+    "react-router-dom": "~4.1.1",
     "ts-loader": "2.0.2",
     "typescript": "2.2.1",
     "webpack": "2.2.1",
     "webpack-dev-server": "^1.14.1"
   },
   "devDependencies": {
-    "webpack": "^2.2.1"
+    "webpack": "2.4.1"
   },
   "scripts": {
     "dev": "webpack-dev-server --content-base src --inline --hot"

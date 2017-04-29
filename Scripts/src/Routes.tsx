@@ -1,5 +1,6 @@
 ﻿import * as React from "react";
-import { HashRouter, Route, Link } from "react-router-dom"
+import { HashRouter, Link } from "react-router-dom"
+import { Route } from 'react-router'
 
 const Home = () => (
     <div>
